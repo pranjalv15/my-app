@@ -1,0 +1,30 @@
+h1 {
+  color: blue;
+  align-self: center;
+}
+
+.inputBox {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  width: 75%;
+}
+ul {
+  margin-left: 400px;
+  align-self: center;
+  width: 60%;
+}
+.name {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.15fr 0.2fr 0.5fr;
+  column-gap: 1px;
+}
+
+img {
+  align-self: center;
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

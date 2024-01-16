@@ -1,17 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Import the ChipComponent function from the ChipComponent.js file
+import React from "react";
+import ReactDOM from "react-dom";
+import ChipsComponent from "./ChipComponent";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Get the root element from the HTML document
+const root = document.getElementById("root");
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Render the ChipComponent function inside the root element using ReactDOM
+ReactDOM.render(<ChipsComponent />, root);
